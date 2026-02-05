@@ -1,0 +1,17 @@
+ Trader Performance vs Market Sentiment Methodology
+
+In this analysis, I studied how market sentiment (Fear vs Greed) relates to trader behavior and performance on the Hyperliquid platform. I combined daily Bitcoin Fear & Greed sentiment data with historical trader execution data by aligning trades to sentiment at a daily level.
+
+I aggregated trades per account per day to compute key performance and behavioral metrics such as daily PnL, win rate, trade frequency, average trade size, and long/short bias. To keep the analysis focused, I excluded Neutral sentiment days when comparing Fear and Greed regimes. I also explored trader heterogeneity by segmenting traders based on trading frequency and clustering them into behavioral archetypes using simple, interpretable features.
+
+Key Insights
+
+I observed clear differences in both trader performance and behavior across sentiment regimes. Greed days generally show higher average PnL but with much higher variability, suggesting increased risk-taking. Fear days tend to have more stable but lower returns, indicating more cautious trading behavior.
+
+Behaviorally, traders are more active and directionally biased during Greed periods, while activity declines and positioning becomes more balanced during Fear. Additionally, frequent traders are more sensitive to sentiment changes than infrequent traders, benefiting more during Greed but suffering larger losses during Fear.
+
+Strategy Recommendations
+
+Based on these findings, I would recommend reducing trade frequency during Fear periods, especially for high-activity traders, to avoid overtrading in uncertain market conditions. During Greed periods, traders can increase participation, but position sizing should be controlled to manage the higher volatility associated with aggressive sentiment.
+
+Overall, adapting trading behavior dynamically based on market sentiment and trader profile can help improve risk management and performance consistency.
